@@ -1,0 +1,51 @@
+.contenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 8px;
+    border:1px solid black;
+    box-shadow: 5px 5px 5px black;
+    color:black;
+    padding: 20px ;
+    margin-top: 10px;
+    text-align: center;
+ 
+    width: 500px;
+   
+
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.contact input{
+    padding: 10px;
+    margin: 10px;
+}
+.contact p{
+    font-size: 1.5rem;
+} 
+.submit{
+    border:none;
+    border-radius: 50px;
+    padding:9px 25px;
+    background-color:#0088a9
+}
+.submit:hover{
+    background-color:rgba(0,136,169,0.9);
+    color:white;
+
+}
+.heading{
+     color:#0088a9;
+}
